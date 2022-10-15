@@ -1,0 +1,443 @@
+body {
+  background-color: #454141;
+}
+
+.navbar {
+  margin: 40px 0;
+}
+
+.navbar .navbar-brand {
+  color: #d99162;
+  font-weight: bold;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #fff9ed;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #d99162;
+}
+
+.navbar button {
+  background-color: #d99162;
+  border-radius: 0;
+  padding: 7px 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff9ed;
+}
+
+.hero-section {
+  margin-top: 50px;
+  overflow-x: hidden;
+}
+
+.hero-section img {
+  width: 140%;
+}
+
+.hero-section h1 {
+  color: #fff9ed;
+  font-weight: bold;
+  font-size: 70px;
+  margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+  .hero-section h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .hero-section h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-section {
+    margin-top: 0;
+  }
+  .hero-section img {
+    width: 100%;
+  }
+  .hero-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-section {
+    margin-top: 0;
+  }
+  .hero-section h1 {
+    font-size: 25px;
+  }
+}
+
+.vicki-section {
+  padding: 60px 0;
+  background-color: #fff9ed;
+}
+
+.vicki-section img {
+  margin-left: -118px;
+}
+
+.vicki-section a {
+  text-decoration: none;
+  color: #454141;
+  font-weight: bold;
+}
+
+.vicki-section .vicki-portfolio p {
+  font-size: 24px;
+  color: #454141;
+  line-height: 30px;
+}
+
+.vicki-section .vicki-case-study p {
+  background-color: #d99162;
+  color: #fff9ed;
+  margin-top: 50px;
+  padding: 50px 50px 0 50px;
+}
+
+.vicki-section .vicki-case-study a {
+  display: block;
+  text-align: right;
+}
+
+@media (max-width: 1199.98px) {
+  .vicki-section img {
+    width: 120%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .vicki-section img {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .vicki-section .vicki-portfolio p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .vicki-section .vicki-case-study p {
+    margin-top: 50px;
+    padding: 50px 50px 0 50px;
+    font-size: 15px;
+  }
+}
+
+.work-together {
+  background-color: #ccc7be;
+  padding: 10px;
+}
+
+.work-together .work-together-inner {
+  border: 1px solid #fff;
+  padding: 80px 0;
+}
+
+.work-together .work-together-item img {
+  width: 100%;
+}
+
+.work-together .work-together-item h3 {
+  color: #454141;
+  font-weight: bold;
+}
+
+.work-together button {
+  background-color: #454141;
+  color: #fff9ed;
+  border: 0;
+  padding: 8px 25px;
+  margin-top: 40px;
+}
+
+.furniture {
+  background-color: #fff9ed;
+  padding: 60px 0;
+}
+
+.furniture img {
+  width: 100%;
+}
+
+.furniture button {
+  background-color: #454141;
+  color: #fff9ed;
+  border: 0;
+  padding: 8px 25px;
+  margin-top: 40px;
+}
+
+.furniture .furniture-item {
+  margin-bottom: 15px;
+}
+
+.magazine {
+  background-color: #d99162;
+  color: #fff9ed;
+  padding: 10px;
+  position: relative;
+  z-index: -1;
+}
+
+.magazine .magazine-inner {
+  border: 1px solid #fff;
+  padding: 170px 0;
+}
+
+.magazine p {
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 991.98px) {
+  .magazine p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .magazine p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .magazine p {
+    font-size: 16px;
+  }
+}
+
+.dream {
+  padding-bottom: 60px;
+}
+
+.dream img {
+  width: 100%;
+  position: relative;
+  margin-top: -150px;
+  z-index: -1;
+}
+
+.dream .dream-data {
+  margin-left: 80px;
+}
+
+.dream .dream-data h2 {
+  color: #fff9ed;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: -35px;
+  position: relative;
+  z-index: 3;
+}
+
+.dream .dream-data button {
+  color: #fff9ed;
+  border: 0;
+  background-color: #807979;
+  padding: 8px 30px;
+  margin-top: 40px;
+}
+
+@media (max-width: 767.98px) {
+  .dream .dream-data h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .dream .dream-data {
+    margin-left: 20px;
+  }
+  .dream .dream-data h2 {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+}
+
+.get-in-touch {
+  padding: 60px 0;
+  background-color: #fff9ed;
+}
+
+.get-in-touch p {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.get-in-touch .get-in-touch-item {
+  margin-bottom: 80px;
+}
+
+.get-in-touch .get-in-touch-item img {
+  width: 100%;
+}
+
+.get-in-touch .get-in-touch-email {
+  background-color: #fff;
+  padding: 50px 100px;
+  margin: 40px 60px;
+  border: 1px solid #454141;
+}
+
+.get-in-touch .get-in-touch-email h2 {
+  margin-bottom: 30px;
+  color: #454141;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.get-in-touch .get-in-touch-email span {
+  font-size: 24px;
+  color: #454141;
+}
+
+.get-in-touch .get-in-touch-email input {
+  padding: 10px 100px 10px 10px;
+}
+
+.get-in-touch .get-in-touch-email button {
+  padding: 10px;
+  margin-left: -20px;
+  background-color: #d99162;
+  color: #fff9ed;
+  font-weight: bold;
+  border: 2px solid #454141;
+  margin-top: 10px;
+}
+
+@media (max-width: 1199.98px) {
+  .get-in-touch p {
+    font-size: 20px;
+  }
+  .get-in-touch .get-in-touch-email span {
+    font-size: 20px;
+  }
+  .get-in-touch .get-in-touch-email input {
+    padding: 10px 30px 10px 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .get-in-touch h2 {
+    font-size: 20px !important;
+  }
+  .get-in-touch p {
+    font-size: 18px;
+  }
+  .get-in-touch .get-in-touch-email span {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .get-in-touch h2 {
+    font-size: 20px !important;
+  }
+  .get-in-touch .get-in-touch-email span {
+    font-size: 15px;
+  }
+  .get-in-touch .get-in-touch-email input {
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .get-in-touch h2 {
+    font-size: 14px !important;
+  }
+  .get-in-touch .get-in-touch-email {
+    background-color: #fff;
+    padding: 40px;
+    margin: 0px;
+  }
+  .get-in-touch .get-in-touch-email span {
+    font-size: 15px;
+    margin-bottom: 50px !important;
+  }
+  .get-in-touch .get-in-touch-email input {
+    padding: 10px 60px 10px 10px;
+  }
+}
+
+footer {
+  background-color: #d99162;
+  padding: 20px 0;
+}
+
+footer h2 {
+  font-weight: bold;
+}
+
+footer .links {
+  -webkit-transform: translateY(75%);
+          transform: translateY(75%);
+}
+
+footer .links li {
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+footer .links li a {
+  color: #fff9ed;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer .social {
+  -webkit-transform: translateY(75%);
+          transform: translateY(75%);
+}
+
+footer .social li {
+  padding-right: 30px;
+  list-style-type: none;
+}
+
+footer .social li a {
+  background-color: #454141;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+footer .social li a i {
+  color: #fff;
+}
+
+@media (max-width: 1199.98px) {
+  footer .links li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  footer .links li a {
+    font-size: 14px;
+  }
+  footer .social li {
+    padding-right: 20px;
+  }
+}
+/*# sourceMappingURL=app.css.map */
